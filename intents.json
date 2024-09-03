@@ -33,14 +33,26 @@
     {
       "tag": "cancer_symptoms",
       "patterns": [
-        "Persistent coughing, chest pain, shortness of breath, and coughing up blood.",
-        "Lump or thickening in the breast or underarm area, changes in breast size or shape, nipple changes or discharge.",
-        "Difficulty urinating, weak or interrupted urine flow, blood in the urine or semen, erectile dysfunction, pain in the hips, back, or chest.",
-        "Fatigue, frequent infections, easy bruising or bleeding, swollen lymph nodes, bone pain.",
-        "Changes in the size, shape, or color of a mole or other skin lesion, a sore that does not heal, itching, tenderness, or pain in the affected area."
+        "symptoms of lung cancer."
       ],
       "responses": [
-        "It seems like you may be experiencing symptoms related to cancer. These symptoms can be associated with different types of cancer, including lung cancer, breast cancer, prostate cancer, leukemia, and skin cancer. Understanding these symptoms is crucial for early detection and treatment."
+       "Persistent coughing, chest pain, shortness of breath, and coughing up blood."
+	      "patterns":[
+		      "symptoms of breast cancer."
+	      ],
+	      "responses": [
+	      "Lump or thickening in the breast or underarm area, changes in breast size or shape, nipple changes or discharge."
+		      "patterns": [
+        "symptoms of prostate cancer."
+      ],
+      "responses": [
+        "Difficulty urinating, weak or interrupted urine flow, blood in the urine or semen, erectile dysfunction, pain in the hips, back, or chest."
+      ],
+		       "patterns": [
+        "symptoms of skin cancer."
+      ],
+      "responses": [
+        "Changes in the size, shape, or color of a mole or other skin lesion, a sore that does not heal, itching, tenderness, or pain in the affected area."
       ]
     },
     {
